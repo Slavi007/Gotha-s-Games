@@ -1,0 +1,12 @@
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Snake\Snake\bin\Debug\Snake.exe.config
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Snake\Snake\bin\Debug\Snake.exe
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Snake\Snake\bin\Debug\Snake.pdb
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Snake\Snake\obj\Debug\Snake.exe
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
