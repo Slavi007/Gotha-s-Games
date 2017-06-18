@@ -1,0 +1,12 @@
+D:\vs2017\C# Advanced\TronGame\TronGame\bin\Debug\TronGame.exe.config
+D:\vs2017\C# Advanced\TronGame\TronGame\bin\Debug\TronGame.exe
+D:\vs2017\C# Advanced\TronGame\TronGame\bin\Debug\TronGame.pdb
+D:\vs2017\C# Advanced\TronGame\TronGame\obj\Debug\TronGame.csprojResolveAssemblyReference.cache
+D:\vs2017\C# Advanced\TronGame\TronGame\obj\Debug\TronGame.exe
+D:\vs2017\C# Advanced\TronGame\TronGame\obj\Debug\TronGame.pdb
+C:\Users\User\Desktop\SoftUni\05.C-Fundamentals\TronGame\TronGame\bin\Debug\TronGame.exe.config
+C:\Users\User\Desktop\SoftUni\05.C-Fundamentals\TronGame\TronGame\bin\Debug\TronGame.exe
+C:\Users\User\Desktop\SoftUni\05.C-Fundamentals\TronGame\TronGame\bin\Debug\TronGame.pdb
+C:\Users\User\Desktop\SoftUni\05.C-Fundamentals\TronGame\TronGame\obj\Debug\TronGame.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\SoftUni\05.C-Fundamentals\TronGame\TronGame\obj\Debug\TronGame.exe
+C:\Users\User\Desktop\SoftUni\05.C-Fundamentals\TronGame\TronGame\obj\Debug\TronGame.pdb
