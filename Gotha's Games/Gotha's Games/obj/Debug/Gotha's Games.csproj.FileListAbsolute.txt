@@ -1,0 +1,9 @@
+c:\users\bachito po malko ot3\documents\visual studio 2015\Projects\Gotha's Games\Gotha's Games\bin\Debug\Gotha's Games.exe.config
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\bin\Debug\Gotha's Games.exe
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\bin\Debug\Gotha's Games.pdb
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\obj\Debug\Gotha's Games.csprojResolveAssemblyReference.cache
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\obj\Debug\Gotha_s_Games.Form1.resources
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\obj\Debug\Gotha_s_Games.Properties.Resources.resources
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\obj\Debug\Gotha's Games.csproj.GenerateResource.Cache
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\obj\Debug\Gotha's Games.exe
+C:\Users\bachito po malko ot3\Documents\Visual Studio 2015\Projects\Gotha's Games\Gotha's Games\obj\Debug\Gotha's Games.pdb
