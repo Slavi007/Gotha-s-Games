@@ -1,0 +1,12 @@
+c:\users\deni\documents\visual studio 2015\Projects\PingPong\PingPong\bin\Debug\PingPong.exe.config
+c:\users\deni\documents\visual studio 2015\Projects\PingPong\PingPong\bin\Debug\PingPong.exe
+c:\users\deni\documents\visual studio 2015\Projects\PingPong\PingPong\bin\Debug\PingPong.pdb
+c:\users\deni\documents\visual studio 2015\Projects\PingPong\PingPong\obj\Debug\PingPong.csprojResolveAssemblyReference.cache
+c:\users\deni\documents\visual studio 2015\Projects\PingPong\PingPong\obj\Debug\PingPong.exe
+c:\users\deni\documents\visual studio 2015\Projects\PingPong\PingPong\obj\Debug\PingPong.pdb
+C:\Users\Deni\Desktop\PingPong\PingPong\bin\Debug\PingPong.exe.config
+C:\Users\Deni\Desktop\PingPong\PingPong\obj\Debug\PingPong.exe
+C:\Users\Deni\Desktop\PingPong\PingPong\obj\Debug\PingPong.pdb
+C:\Users\Deni\Desktop\PingPong\PingPong\bin\Debug\PingPong.exe
+C:\Users\Deni\Desktop\PingPong\PingPong\bin\Debug\PingPong.pdb
+C:\Users\Deni\Desktop\PingPong\PingPong\obj\Debug\PingPong.csprojResolveAssemblyReference.cache
