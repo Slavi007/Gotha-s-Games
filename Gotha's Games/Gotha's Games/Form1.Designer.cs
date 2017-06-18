@@ -77,6 +77,7 @@
             this.btPingPong.Size = new System.Drawing.Size(270, 115);
             this.btPingPong.TabIndex = 2;
             this.btPingPong.UseVisualStyleBackColor = false;
+            this.btPingPong.Click += new System.EventHandler(this.btPingPong_Click);
             // 
             // btSantase
             // 

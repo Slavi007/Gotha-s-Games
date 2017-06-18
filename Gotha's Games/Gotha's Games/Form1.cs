@@ -32,5 +32,10 @@ namespace Gotha_s_Games
         {
             Process.Start("BricksBreaker.exe");  //Starting BricksBreaker.exe from the debug folder.
         }
+
+        private void btPingPong_Click(object sender, EventArgs e)
+        {
+            Process.Start("PingPong.exe");  //Starting PingPong.exe from the debug folder.
+        }
     }
 }
