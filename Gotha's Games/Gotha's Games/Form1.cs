@@ -20,7 +20,17 @@ namespace Gotha_s_Games
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process.Start("Snake.exe");
+            Process.Start("Snake.exe");   //Starting Snake.exe from the debug folder.
+        }
+
+        private void btTron_Click(object sender, EventArgs e)
+        {
+            Process.Start("TronGame.exe");  //Starting TronGame.exe from the debug folder.
+        }
+
+        private void btBrickBreaker_Click(object sender, EventArgs e)
+        {
+            Process.Start("BricksBreaker.exe");  //Starting BricksBreaker.exe from the debug folder.
         }
     }
 }

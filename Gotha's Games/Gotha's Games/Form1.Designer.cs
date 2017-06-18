@@ -33,7 +33,7 @@
             this.btTron = new System.Windows.Forms.Button();
             this.btPingPong = new System.Windows.Forms.Button();
             this.btSantase = new System.Windows.Forms.Button();
-            this.bt = new System.Windows.Forms.Button();
+            this.btBrickBreaker = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -63,6 +63,7 @@
             this.btTron.Size = new System.Drawing.Size(270, 115);
             this.btTron.TabIndex = 1;
             this.btTron.UseVisualStyleBackColor = false;
+            this.btTron.Click += new System.EventHandler(this.btTron_Click);
             // 
             // btPingPong
             // 
@@ -93,18 +94,19 @@
             this.btSantase.TabIndex = 3;
             this.btSantase.UseVisualStyleBackColor = false;
             // 
-            // bt
+            // btBrickBreaker
             // 
-            this.bt.BackColor = System.Drawing.Color.Transparent;
-            this.bt.BackgroundImage = global::Gotha_s_Games.Properties.Resources.H2x1_WiiUDS_BrickBreaker;
-            this.bt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt.Location = new System.Drawing.Point(556, 389);
-            this.bt.Name = "bt";
-            this.bt.Size = new System.Drawing.Size(270, 115);
-            this.bt.TabIndex = 4;
-            this.bt.UseVisualStyleBackColor = false;
+            this.btBrickBreaker.BackColor = System.Drawing.Color.Transparent;
+            this.btBrickBreaker.BackgroundImage = global::Gotha_s_Games.Properties.Resources.H2x1_WiiUDS_BrickBreaker;
+            this.btBrickBreaker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btBrickBreaker.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btBrickBreaker.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btBrickBreaker.Location = new System.Drawing.Point(556, 389);
+            this.btBrickBreaker.Name = "btBrickBreaker";
+            this.btBrickBreaker.Size = new System.Drawing.Size(270, 115);
+            this.btBrickBreaker.TabIndex = 4;
+            this.btBrickBreaker.UseVisualStyleBackColor = false;
+            this.btBrickBreaker.Click += new System.EventHandler(this.btBrickBreaker_Click);
             // 
             // lblTitle
             // 
@@ -129,7 +131,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.bt);
+            this.Controls.Add(this.btBrickBreaker);
             this.Controls.Add(this.btSantase);
             this.Controls.Add(this.btPingPong);
             this.Controls.Add(this.btTron);
@@ -149,7 +151,7 @@
         private System.Windows.Forms.Button btTron;
         private System.Windows.Forms.Button btPingPong;
         private System.Windows.Forms.Button btSantase;
-        private System.Windows.Forms.Button bt;
+        private System.Windows.Forms.Button btBrickBreaker;
         private System.Windows.Forms.Label lblTitle;
     }
 }
