@@ -29,6 +29,7 @@
 
             while (true)
             {
+                var speed = 100;
                if(Console.KeyAvailable)
                { 
                     var key = Console.ReadKey(true);
@@ -74,8 +75,9 @@
 
                 WriteOnPosition(firstPlayerColumn, firstPlayerRow, '*', ConsoleColor.Blue);
                 WriteOnPosition(secondPlayerColumn, secondPlayerRow, '*', ConsoleColor.DarkYellow);
-
-              Thread.Sleep(100);
+               
+             Thread.Sleep(speed);
+                speed -= 10;
             }
         }
 
@@ -86,10 +88,10 @@
             secondPlayerDirection = left;
             Console.WriteLine("Press any key to start again");
             Console.ReadKey();
-            Console.Clear();;
+            Console.Clear();
+            Console.Beep();
             MovePlayer();
         }
-
 
         private static bool DoesPlayersLose(int row, int col)
         {
