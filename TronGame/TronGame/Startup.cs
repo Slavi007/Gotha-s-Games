@@ -129,36 +129,38 @@
 
         private static void MovePlayer()
         {
-            if (firstPlayerDirection == right)
+            //FirstPlayerMove
+            if(firstPlayerDirection == right)
             {
                 firstPlayerColumn++;
             }
-            if (firstPlayerDirection == left)
+            else if (firstPlayerDirection == left)
             {
                 firstPlayerColumn--;
             }
-            if (firstPlayerDirection == up)
+            else if(firstPlayerDirection == up)
             {
                 firstPlayerRow--;
             }
-            if (firstPlayerDirection == down)
+            else if (firstPlayerDirection == down)
             {
                 firstPlayerRow++;
             }
 
+            //SecondPlayerMove
             if (secondPlayerDirection == right)
             {
                 secondPlayerColumn++;
             }
-            if (secondPlayerDirection == left)
+            else if (secondPlayerDirection == left)
             {
                 secondPlayerColumn--;
             }
-            if (secondPlayerDirection == up)
+            else if (secondPlayerDirection == up)
             {
                 secondPlayerRow--;
             }
-            if (secondPlayerDirection == down)
+            else if (secondPlayerDirection == down)
             {
                 secondPlayerRow++;
             }
