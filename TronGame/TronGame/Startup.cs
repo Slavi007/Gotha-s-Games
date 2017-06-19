@@ -173,38 +173,34 @@
 
         private static void ChangePlayerDirection(ConsoleKeyInfo key)
         {
-            if (key.Key == ConsoleKey.W)
+
+            switch (key.Key.ToString())
             {
-                firstPlayerDirection = up;
-            }
-            else if (key.Key == ConsoleKey.A)
-            {
-                firstPlayerDirection = left;
-            }
-            else if (key.Key == ConsoleKey.D)
-            {
-                firstPlayerDirection = right;
-            }
-            else if (key.Key == ConsoleKey.S)
-            {
-                firstPlayerDirection = down;
-            }
-            else if (key.Key == ConsoleKey.UpArrow)
-            {
-                secondPlayerDirection = up;
-            }
-            else if (key.Key == ConsoleKey.LeftArrow)
-            {
-                secondPlayerDirection = left;
-            }
-            else if (key.Key == ConsoleKey.RightArrow)
-            {
-                secondPlayerDirection = right;
-            }
-            else if (key.Key == ConsoleKey.DownArrow)
-            {
-                secondPlayerDirection = down;
-            }
+                case "W":
+                    firstPlayerDirection = up;
+                    break;
+                case "A":
+                    firstPlayerDirection = left;
+                    break;;
+                case "D":
+                    firstPlayerDirection = right;
+                    break;
+                case "S":
+                    firstPlayerDirection = down;
+                    break;;
+                case "UpArrow":
+                    secondPlayerDirection = up;
+                    break;
+                case "LeftArrow":
+                    secondPlayerDirection = left;
+                    break;
+                case "RightArrow":
+                    secondPlayerDirection = right;
+                    break;
+                case "DownArrow":
+                    secondPlayerDirection = down;
+                    break;
+            }           
         }
     }
 }
