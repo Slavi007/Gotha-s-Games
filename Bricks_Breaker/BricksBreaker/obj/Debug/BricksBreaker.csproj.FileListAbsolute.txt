@@ -4,6 +4,3 @@ D:\MyProjects\03. C#Fundamentals(23.05.2017)\00.TeamProject\BricksBreaker\bin\De
 D:\MyProjects\03. C#Fundamentals(23.05.2017)\00.TeamProject\BricksBreaker\obj\Debug\BricksBreaker.csprojResolveAssemblyReference.cache
 D:\MyProjects\03. C#Fundamentals(23.05.2017)\00.TeamProject\BricksBreaker\obj\Debug\BricksBreaker.exe
 D:\MyProjects\03. C#Fundamentals(23.05.2017)\00.TeamProject\BricksBreaker\obj\Debug\BricksBreaker.pdb
-C:\Gotha-s-Games\BricksBreaker\bin\Debug\BricksBreaker.exe.config
-C:\Gotha-s-Games\BricksBreaker\obj\Debug\BricksBreaker.exe
-C:\Gotha-s-Games\BricksBreaker\obj\Debug\BricksBreaker.pdb
