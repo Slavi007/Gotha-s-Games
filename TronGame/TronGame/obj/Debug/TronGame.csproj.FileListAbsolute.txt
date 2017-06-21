@@ -16,3 +16,6 @@ C:\Users\User\Desktop\Gotha-s-Games\TronGame\TronGame\bin\Debug\TronGame.pdb
 C:\Users\User\Desktop\Gotha-s-Games\TronGame\TronGame\obj\Debug\TronGame.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Gotha-s-Games\TronGame\TronGame\obj\Debug\TronGame.exe
 C:\Users\User\Desktop\Gotha-s-Games\TronGame\TronGame\obj\Debug\TronGame.pdb
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\TronGame\TronGame\bin\Debug\TronGame.exe.config
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\TronGame\TronGame\obj\Debug\TronGame.exe
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\TronGame\TronGame\obj\Debug\TronGame.pdb

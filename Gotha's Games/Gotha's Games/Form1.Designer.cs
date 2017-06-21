@@ -32,7 +32,7 @@
             this.btSnake = new System.Windows.Forms.Button();
             this.btTron = new System.Windows.Forms.Button();
             this.btPingPong = new System.Windows.Forms.Button();
-            this.btSantase = new System.Windows.Forms.Button();
+            this.btTicTacToe = new System.Windows.Forms.Button();
             this.btBrickBreaker = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -79,21 +79,22 @@
             this.btPingPong.UseVisualStyleBackColor = false;
             this.btPingPong.Click += new System.EventHandler(this.btPingPong_Click);
             // 
-            // btSantase
+            // btTicTacToe
             // 
-            this.btSantase.BackColor = System.Drawing.Color.Transparent;
-            this.btSantase.BackgroundImage = global::Gotha_s_Games.Properties.Resources.santase;
-            this.btSantase.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btSantase.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btSantase.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btSantase.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSantase.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btSantase.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btSantase.Location = new System.Drawing.Point(156, 389);
-            this.btSantase.Name = "btSantase";
-            this.btSantase.Size = new System.Drawing.Size(270, 115);
-            this.btSantase.TabIndex = 3;
-            this.btSantase.UseVisualStyleBackColor = false;
+            this.btTicTacToe.BackColor = System.Drawing.Color.Transparent;
+            this.btTicTacToe.BackgroundImage = global::Gotha_s_Games.Properties.Resources.splash;
+            this.btTicTacToe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btTicTacToe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btTicTacToe.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btTicTacToe.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btTicTacToe.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btTicTacToe.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btTicTacToe.Location = new System.Drawing.Point(156, 389);
+            this.btTicTacToe.Name = "btTicTacToe";
+            this.btTicTacToe.Size = new System.Drawing.Size(270, 115);
+            this.btTicTacToe.TabIndex = 3;
+            this.btTicTacToe.UseVisualStyleBackColor = false;
+            this.btTicTacToe.Click += new System.EventHandler(this.btTicTacToe_Click);
             // 
             // btBrickBreaker
             // 
@@ -133,7 +134,7 @@
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btBrickBreaker);
-            this.Controls.Add(this.btSantase);
+            this.Controls.Add(this.btTicTacToe);
             this.Controls.Add(this.btPingPong);
             this.Controls.Add(this.btTron);
             this.Controls.Add(this.btSnake);
@@ -151,7 +152,7 @@
         private System.Windows.Forms.Button btSnake;
         private System.Windows.Forms.Button btTron;
         private System.Windows.Forms.Button btPingPong;
-        private System.Windows.Forms.Button btSantase;
+        private System.Windows.Forms.Button btTicTacToe;
         private System.Windows.Forms.Button btBrickBreaker;
         private System.Windows.Forms.Label lblTitle;
     }

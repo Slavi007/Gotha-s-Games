@@ -4,3 +4,6 @@ c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\bin
 c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.csprojResolveAssemblyReference.cache
 c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.exe
 c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.pdb
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Tic-Tac-Toe\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.exe.config
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.exe
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.pdb

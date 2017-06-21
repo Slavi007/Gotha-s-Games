@@ -103,9 +103,9 @@ namespace Gotha_s_Games.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap santase {
+        internal static System.Drawing.Bitmap Snake {
             get {
-                object obj = ResourceManager.GetObject("santase", resourceCulture);
+                object obj = ResourceManager.GetObject("Snake", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Gotha_s_Games.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Snake {
+        internal static System.Drawing.Bitmap splash {
             get {
-                object obj = ResourceManager.GetObject("Snake", resourceCulture);
+                object obj = ResourceManager.GetObject("splash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
