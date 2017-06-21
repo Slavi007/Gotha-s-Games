@@ -9,14 +9,14 @@
         private static int right = 1;
         private static int up = 2;
         private static int down = 3;
-
-        static int firstPlayerScore = 0;
-        static int firstPlayerDirection = right;
+        
+        static int firstPlayerScore = 0; 
+        static int firstPlayerDirection = right; //The first player will start on the right
         static int firstPlayerColumn = 0;
         static int firstPlayerRow = 15;
 
         static int secondPlayerScore = 0;
-        static int secondPlayerDirection = left;
+        static int secondPlayerDirection = left; //The second player will start on the right
         static int secondPlayerColumn = 99;
         static int secondPlayerRow = 15;
 
@@ -25,18 +25,18 @@
         public static void Main(string[] args)
         {
             SetGameField();
-            isUsed = new bool[Console.WindowWidth, Console.WindowHeight];
+            isUsed = new bool[Console.WindowWidth, Console.WindowHeight];// Create a matrix with a false value
 
-            while (true)
+            while (true) // Endless cycle
             {
                 var speed = 100;
-               if(Console.KeyAvailable)
-               { 
-                    var key = Console.ReadKey(true);
-                    ChangePlayerDirection(key);
-               }
+               if(Console.KeyAvailable) // Checks if the user has pressed a key
+                { 
+                    var key = Console.ReadKey(true); // We read which key we pressed
+                    ChangePlayerDirection(key); // A method that changes the direction of the player
+                }
 
-                MovePlayer();
+                MovePlayer(); // Change of coordinates
 
                 var firstPlayerLoses = DoesPlayersLose(firstPlayerRow, firstPlayerColumn);
                 var secondPlayerLoses = DoesPlayersLose(secondPlayerRow, secondPlayerColumn);
@@ -70,17 +70,17 @@
                     ResetGame();
                 }
 
-                isUsed[firstPlayerColumn, firstPlayerRow] = true;
-                isUsed[secondPlayerColumn, secondPlayerRow] = true;
+                isUsed[firstPlayerColumn, firstPlayerRow] = true; //We mark this field already occupied
+                isUsed[secondPlayerColumn, secondPlayerRow] = true; //We mark this field already occupied
 
-                WriteOnPosition(firstPlayerColumn, firstPlayerRow, '*', ConsoleColor.Blue);
-                WriteOnPosition(secondPlayerColumn, secondPlayerRow, '*', ConsoleColor.DarkYellow);
-               
-             Thread.Sleep(speed);
+                WriteOnPosition(firstPlayerColumn, firstPlayerRow, '*', ConsoleColor.Blue); //We draw the player's position on the console
+                WriteOnPosition(secondPlayerColumn, secondPlayerRow, '*', ConsoleColor.DarkYellow); //We draw the player's position on the console
                 speed -= 10;
+                Thread.Sleep(speed);
+               
             }
         }
-
+        
         private static void ResetGame()
         {
             isUsed = new bool[Console.WindowWidth, Console.WindowHeight];
@@ -91,7 +91,7 @@
             Console.Clear();
             Console.Beep();
             MovePlayer();
-        }
+        }//A method that releases the game from the beginning
 
         private static bool DoesPlayersLose(int row, int col)
         {
