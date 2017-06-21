@@ -1,0 +1,6 @@
+c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.exe.config
+c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.exe
+c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.pdb
+c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.csprojResolveAssemblyReference.cache
+c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.exe
+c:\users\ivida\documents\visual studio 2017\Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.pdb
