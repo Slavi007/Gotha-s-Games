@@ -61,12 +61,32 @@ namespace Gotha_s_Games.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BricksBreaker {
+            get {
+                object obj = ResourceManager.GetObject("BricksBreaker", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap H2x1_WiiUDS_BrickBreaker {
             get {
                 object obj = ResourceManager.GetObject("H2x1_WiiUDS_BrickBreaker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PingPong {
+            get {
+                object obj = ResourceManager.GetObject("PingPong", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -111,6 +131,16 @@ namespace Gotha_s_Games.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Snake1 {
+            get {
+                object obj = ResourceManager.GetObject("Snake1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Sound {
@@ -130,12 +160,32 @@ namespace Gotha_s_Games.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Tic_Tac_Toe {
+            get {
+                object obj = ResourceManager.GetObject("Tic_Tac_Toe", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap tron_marquee_game_sticker {
             get {
                 object obj = ResourceManager.GetObject("tron_marquee_game_sticker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] TronGame {
+            get {
+                object obj = ResourceManager.GetObject("TronGame", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

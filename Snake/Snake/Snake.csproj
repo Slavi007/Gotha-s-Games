@@ -65,6 +65,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\CECA_-_Trepni_Official_2016 %282%29.wav" />
+    <None Include="Resources\Super Mario Bros Official Theme Song.wav" />
     <None Include="bin\Debug\Apple.wav" />
     <None Include="bin\Debug\Error.wav" />
     <None Include="bin\Debug\Sound.wav" />

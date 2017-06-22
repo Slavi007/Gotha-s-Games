@@ -82,7 +82,7 @@ namespace Snake
 
                         if (menuItems[selectedItem] == "-Exit")
                         {
-                            System.Media.SoundPlayer player = new System.Media.SoundPlayer("Sound.wav");
+                            System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Sound);
                             player.Play();
                             Thread.Sleep(1000);
                             Environment.Exit(0);
@@ -90,9 +90,10 @@ namespace Snake
                         else
                         {
                             Console.Clear();
-                            System.Media.SoundPlayer player = new System.Media.SoundPlayer("Sound.wav");
-                            player.Play();              // play the game
-                            SnakeGame.Game();       
+                            System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Sound);
+                            player.Play();
+                            Thread.Sleep(1000);          
+                            SnakeGame.Game();        // play the game
                         }
                         break;
                 }

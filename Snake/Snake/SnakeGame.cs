@@ -79,11 +79,11 @@ namespace Snake
                     position.col,
                     position.row);
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write((char)149);
+                Console.Write("O");
             }
 
             while (true)
-            {
+            {       
                 if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo userInput = Console.ReadKey();
@@ -128,7 +128,7 @@ namespace Snake
                     Console.SetCursorPosition(Console.WindowWidth / 2 - 13, Console.WindowHeight / 2 - 1);
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     int userPoints = (snakeElements.Count - 6) * 100;
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer("Error.wav");
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Error);
                     player.Play();
                     Console.WriteLine(@"Game over! Your points are: {0}", userPoints);
                     Thread.Sleep(3000);
@@ -141,7 +141,7 @@ namespace Snake
                     snakeHead.col,
                     snakeHead.row);
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write((char)149);
+                Console.Write("O");
 
                 snakeElements.Enqueue(snakeNewHead);
                 Console.SetCursorPosition(
@@ -172,7 +172,7 @@ namespace Snake
                     Console.SetCursorPosition(
                         food.col,
                         food.row);
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer("Apple.wav");
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Apple);
                     player.Play();
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("@");                

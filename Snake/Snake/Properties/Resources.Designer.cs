@@ -86,5 +86,14 @@ namespace Snake.Properties {
                 return ResourceManager.GetStream("Sound", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Super_Mario_Bros_Official_Theme_Song {
+            get {
+                return ResourceManager.GetStream("Super_Mario_Bros_Official_Theme_Song", resourceCulture);
+            }
+        }
     }
 }

@@ -124,6 +124,11 @@
     <None Include="bin\Debug\Sound.wav" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\BricksBreaker.exe" />
+    <None Include="bin\Debug\PingPong.exe" />
+    <None Include="bin\Debug\Snake.exe" />
+    <None Include="bin\Debug\Tic-Tac-Toe.exe" />
+    <None Include="bin\Debug\TronGame.exe" />
     <Content Include="Proycontec-Robots-Robot-documents.ico" />
     <None Include="Resources\Sounds\Sound.wav" />
     <None Include="Resources\Pictures\tron-marquee-game-sticker.png" />
