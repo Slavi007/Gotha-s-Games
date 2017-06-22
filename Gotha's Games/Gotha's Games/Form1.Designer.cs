@@ -118,11 +118,11 @@
             this.lblTitle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblTitle.Font = new System.Drawing.Font("Ravie", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblTitle.Location = new System.Drawing.Point(29, 63);
+            this.lblTitle.Location = new System.Drawing.Point(79, 61);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(924, 73);
+            this.lblTitle.Size = new System.Drawing.Size(833, 73);
             this.lblTitle.TabIndex = 5;
-            this.lblTitle.Text = "Gotha\'s Games presents:";
+            this.lblTitle.Text = "Team Gotha presents:";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form1
