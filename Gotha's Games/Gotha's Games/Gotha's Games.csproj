@@ -36,7 +36,7 @@
     <StartupObject>Gotha_s_Games.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\Proycontec-Robots-Robot-documents.ico</ApplicationIcon>
+    <ApplicationIcon>Proycontec-Robots-Robot-documents.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,18 +65,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -119,6 +119,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Proycontec-Robots-Robot-documents.ico" />
+    <None Include="Resources\Sounds\Sound.wav" />
+    <None Include="Resources\Pictures\tron-marquee-game-sticker.png" />
+    <None Include="Resources\Pictures\splash.png" />
+    <None Include="Resources\Pictures\Snake.jpg" />
+    <None Include="Resources\Pictures\rsz_wallpaper.jpg" />
+    <None Include="Resources\Pictures\pingpong_1x.png" />
+    <None Include="Resources\Pictures\H2x1_WiiUDS_BrickBreaker.jpg" />
+    <None Include="Resources\Pictures\Proycontec-Robots-Robot-documents.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -16,3 +16,5 @@ C:\Users\bachito po malko ot3\Desktop\Snake\Snake\obj\Debug\Snake.pdb
 C:\Users\bachito po malko ot3\Desktop\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
 C:\Users\bachito po malko ot3\Desktop\Snake\Snake\bin\Debug\Snake.exe
 C:\Users\bachito po malko ot3\Desktop\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\bachito po malko ot3\Desktop\Project\Gotha-s-Games\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.Cache

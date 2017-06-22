@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Gotha_s_Games.Properties {
+namespace Snake.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Gotha_s_Games.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Gotha_s_Games.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Snake.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,52 +61,20 @@ namespace Gotha_s_Games.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.Drawing.Bitmap H2x1_WiiUDS_BrickBreaker {
+        internal static System.IO.UnmanagedMemoryStream Apple {
             get {
-                object obj = ResourceManager.GetObject("H2x1_WiiUDS_BrickBreaker", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetStream("Apple", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.Drawing.Bitmap pingpong_1x {
+        internal static System.IO.UnmanagedMemoryStream Error {
             get {
-                object obj = ResourceManager.GetObject("pingpong_1x", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Proycontec_Robots_Robot_documents {
-            get {
-                object obj = ResourceManager.GetObject("Proycontec_Robots_Robot_documents", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rsz_wallpaper {
-            get {
-                object obj = ResourceManager.GetObject("rsz_wallpaper", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Snake {
-            get {
-                object obj = ResourceManager.GetObject("Snake", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetStream("Error", resourceCulture);
             }
         }
         
@@ -116,26 +84,6 @@ namespace Gotha_s_Games.Properties {
         internal static System.IO.UnmanagedMemoryStream Sound {
             get {
                 return ResourceManager.GetStream("Sound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap splash {
-            get {
-                object obj = ResourceManager.GetObject("splash", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tron_marquee_game_sticker {
-            get {
-                object obj = ResourceManager.GetObject("tron_marquee_game_sticker", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
