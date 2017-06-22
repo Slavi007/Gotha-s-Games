@@ -128,7 +128,7 @@ namespace Snake
                     Console.SetCursorPosition(Console.WindowWidth / 2 - 13, Console.WindowHeight / 2 - 1);
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     int userPoints = (snakeElements.Count - 6) * 100;
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Error);
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer("Error.wav");
                     player.Play();
                     Console.WriteLine(@"Game over! Your points are: {0}", userPoints);
                     Thread.Sleep(3000);
@@ -172,7 +172,7 @@ namespace Snake
                     Console.SetCursorPosition(
                         food.col,
                         food.row);
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.Apple);
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer("Apple.wav");
                     player.Play();
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("@");                
