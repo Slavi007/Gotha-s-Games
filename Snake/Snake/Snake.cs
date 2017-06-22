@@ -21,7 +21,6 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
             SnakeMenu.Menu();
         }      
     }
