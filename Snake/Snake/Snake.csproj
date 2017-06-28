@@ -40,8 +40,19 @@
     <ApplicationIcon>Martin-Berube-Animal-Snake.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +61,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Leaderboard.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Leaderboard.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Leaderboard.cs">
+      <DependentUpon>Leaderboard.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Leaderboard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Leaderboard.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Leaderboard1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Leaderboard.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -65,11 +94,29 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EntityDeploy Include="Leaderboard.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Leaderboard.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Leaderboard.edmx.diagram">
+      <DependentUpon>Leaderboard.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Resources\CECA_-_Trepni_Official_2016 %282%29.wav" />
     <None Include="Resources\Super Mario Bros Official Theme Song.wav" />
     <None Include="bin\Debug\Apple.wav" />
     <None Include="bin\Debug\Error.wav" />
     <None Include="bin\Debug\Sound.wav" />
+    <Content Include="Leaderboard.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Leaderboard.edmx</DependentUpon>
+      <LastGenOutput>Leaderboard.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Leaderboard.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Leaderboard.edmx</DependentUpon>
+      <LastGenOutput>Leaderboard1.cs</LastGenOutput>
+    </Content>
     <Content Include="Martin-Berube-Animal-Snake.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +124,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
